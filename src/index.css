@@ -1,0 +1,158 @@
+.nav-container {
+  justify-content: space-between;
+}
+.home-container img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+/* Home container */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.home-container > div:nth-of-type(1) {
+  width: 45%;
+}
+.home-container > div:nth-of-type(2) {
+  width: 55%;
+}
+
+.notactive-link {
+  background: none;
+  color: #000;
+}
+/* About */
+.about-container {
+  max-width: 660px;
+  margin: 80px auto;
+}
+.about-container h1 {
+  text-align: center;
+  font-size: 75px;
+  font-weight: 700;
+}
+.about-container p {
+  line-height: 2rem;
+}
+/* Product */
+.product {
+  max-width: 1110px;
+  margin: 50px auto;
+}
+/* .product-container {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+} */
+/* Filter*/
+.filter-items {
+  display: flex;
+}
+.filter-items div {
+  width: 100%;
+  margin-right: 10px;
+}
+/* Filter Button */
+.btn-container {
+  display: flex;
+}
+
+/* ThemeToggle dark */
+
+#dark {
+  background-color: #221f1f;
+  height: 100vh;
+}
+#dark .about-container h1 {
+  color: #fff;
+}
+#dark .home-container h1 {
+  color: #fff;
+}
+#dark p {
+  color: #fff;
+}
+/* Center-Loader */
+.center-loader {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+/* Cart Container */
+/* .cart-container{
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+ 
+
+
+@media (max-width: 992px) {
+  #nav-btn {
+    display: none;
+  }
+  /* Home-container */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-container h1,
+  p {
+    text-align: center;
+  }
+  .home-container > div:nth-of-type(1) {
+    width: 100%;
+  }
+  .home-container img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .home-container #home-btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* About-container */
+  .about-container {
+    padding: 0.5rem;
+  }
+  .about-container h1 {
+    color: #fff;
+  }
+  .home-btn{
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background: red; */
+  }
+   
+}
+
+/* colors */
+.colors {
+  display: flex;
+  gap: 10px;
+}
+.colors div {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+
+
+I am a front-end web developer passionate about creating dynamic and user-friendly interfaces. With a strong foundation in HTML, CSS, JavaScript, and React.js, I enjoy transforming ideas into functional and visually appealing web applications. Driven by a love for learning, I continuously seek to improve my skills and stay updated with the latest industry trends, ensuring high-quality and modern solutions.
+
