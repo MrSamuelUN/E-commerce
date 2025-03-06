@@ -8,7 +8,7 @@ function About() {
       <Header />
       <div className="about-container">
         <h1>
-          We love <Button>E-COMMERCE</Button>
+          We love <button className="btn btn-primary">E-COMMERCE</button>
         </h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quae

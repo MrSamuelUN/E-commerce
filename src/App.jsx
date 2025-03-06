@@ -6,6 +6,7 @@ import Cart from "./Components/Pages/Cart";
 import Products from "./Components/Pages/Products";
 import ProductDetails from "./Components/Layout/ProductDetails";
 import Notification from "./Notification";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export const ThemeContext = React.createContext()
